@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8385167453096434955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8385167453096434954}
+  - component: {fileID: 8385167453096434953}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8385167453096434954
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8385167453096434955}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8385167453096434953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8385167453096434955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d8d298fcbe41cc4097d4282446e98bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colors:
+  - {r: 0.3790902, g: 0.8867924, b: 0.16313636, a: 1}
+  - {r: 0.23113208, g: 0.662323, b: 0.9245283, a: 1}
+  - {r: 0.9528302, g: 0.8328115, b: 0.22921856, a: 1}
+  - {r: 0.9622642, g: 0.21333215, b: 0.21333215, a: 1}
+  - {r: 0.9433962, g: 0.20914915, b: 0.8751193, a: 1}
+  cubeMat: {fileID: 0}
+  gameCamera: {fileID: 0}
+  solutionCamera: {fileID: 0}
+  _cellSize: 1
+  brushPefab: {fileID: 2411357927972507850, guid: cd62cd72884ad1e4489740516e4507a7, type: 3}
+  linePaintPrefab: {fileID: 2017383956121391817, guid: c4ebee3f1d741614cadc8948beb00026, type: 3}
+  cellPrefab: {fileID: 391689235379536602, guid: 410cdb0c6e0b3524f95ace5b322aa986, type: 3}
+  leveldataArray:
+  - {fileID: 11400000, guid: 835494e38bc675b49ba1f4c9c7f244fe, type: 2}
+  - {fileID: 11400000, guid: 82e31e8140b67b84ba69732728d2c366, type: 2}
+  - {fileID: 11400000, guid: 9d6b11181afc94949b3784cb81b3433b, type: 2}
+  - {fileID: 11400000, guid: 31432cf1e13351e43ba6904205a1ffbc, type: 2}
+  - {fileID: 11400000, guid: ab375c0b84cd0af448a56c8bfa5594b5, type: 2}
+  - {fileID: 11400000, guid: fc1ec47d2735fdd4e8ad44f8e4d52a6d, type: 2}
+  - {fileID: 11400000, guid: 2253f25b7c72feb42a4327a47d818988, type: 2}
+  - {fileID: 11400000, guid: 820cab7d3bb15ce46b36a330208e4b7f, type: 2}
+  - {fileID: 11400000, guid: 1f9d0e414cf4e90409ebc9a83751870f, type: 2}
+  - {fileID: 11400000, guid: 4d2c82d60f1c4384e92c3fc9c33b0f62, type: 2}
+  uIManager: {fileID: 0}
